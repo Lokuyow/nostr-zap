@@ -439,6 +439,7 @@ export const injectCSS = () => {
 
   styleElement.innerHTML = `
       .nostr-zap-dialog {
+        color-scheme: normal;
         width: 424px;
         min-width: 376px;
         margin: auto;
